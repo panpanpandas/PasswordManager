@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE5B16211657377300122924 /* PMSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5B16201657377300122924 /* PMSetting.m */; };
+		EE5B16251657379300122924 /* PMAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5B16241657379300122924 /* PMAccount.m */; };
+		EE5B162816574AD100122924 /* PMAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5B162716574AD100122924 /* PMAuthenticationViewController.m */; };
+		EE5B16291657549F00122924 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE491640FB1600BE28DE /* Default.png */; };
+		EE5B162A165754D000122924 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE4B1640FB1E00BE28DE /* Default@2x.png */; };
+		EE5B162B165754D500122924 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE4D1640FB2300BE28DE /* Default-568h@2x.png */; };
 		EE670051163A638900C05056 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE670050163A638900C05056 /* UIKit.framework */; };
 		EE670053163A638900C05056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE670052163A638900C05056 /* Foundation.framework */; };
 		EE670055163A638900C05056 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE670054163A638900C05056 /* CoreGraphics.framework */; };
@@ -14,13 +20,25 @@
 		EE67005D163A638900C05056 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE67005B163A638900C05056 /* InfoPlist.strings */; };
 		EE67005F163A638900C05056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67005E163A638900C05056 /* main.m */; };
 		EE670063163A638900C05056 /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE670062163A638900C05056 /* PMAppDelegate.m */; };
-		EE670065163A638900C05056 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE670064163A638900C05056 /* Default.png */; };
-		EE670067163A638900C05056 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE670066163A638900C05056 /* Default@2x.png */; };
-		EE670069163A638900C05056 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE670068163A638900C05056 /* Default-568h@2x.png */; };
-		EE67006C163A638900C05056 /* PasswordManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE67006A163A638900C05056 /* PasswordManager.xcdatamodeld */; };
+		EE670073163A63A600C05056 /* PMStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE670072163A63A600C05056 /* PMStoryboard.storyboard */; };
+		EE67007C163A698900C05056 /* PMSettingTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67007B163A698900C05056 /* PMSettingTableViewViewController.m */; };
+		EE670082163B9A5B00C05056 /* PMPasswordSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE670081163B9A5B00C05056 /* PMPasswordSettingViewController.m */; };
+		EE67008B163C87AA00C05056 /* PMAccountListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67008A163C87AA00C05056 /* PMAccountListViewController.m */; };
+		EE67008E163C87C500C05056 /* PMAccountDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67008D163C87C500C05056 /* PMAccountDetailViewController.m */; };
+		EEBCFE41163C9E8900BE28DE /* PasswordManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEBCFE3F163C9E8900BE28DE /* PasswordManager.xcdatamodeld */; };
+		EEBCFE461640F98D00BE28DE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE451640F98D00BE28DE /* home.png */; };
+		EEBCFE481640F9CC00BE28DE /* tool.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE471640F9CC00BE28DE /* tool.png */; };
+		EEBCFE50164100B600BE28DE /* lock_57.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE4F164100B600BE28DE /* lock_57.png */; };
+		EEBCFE521641010000BE28DE /* lock_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBCFE511641010000BE28DE /* lock_114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE5B161F1657377300122924 /* PMSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSetting.h; sourceTree = "<group>"; };
+		EE5B16201657377300122924 /* PMSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSetting.m; sourceTree = "<group>"; };
+		EE5B16231657379300122924 /* PMAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAccount.h; sourceTree = "<group>"; };
+		EE5B16241657379300122924 /* PMAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAccount.m; sourceTree = "<group>"; };
+		EE5B162616574AD100122924 /* PMAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAuthenticationViewController.h; sourceTree = "<group>"; };
+		EE5B162716574AD100122924 /* PMAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAuthenticationViewController.m; sourceTree = "<group>"; };
 		EE67004C163A638900C05056 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE670050163A638900C05056 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE670052163A638900C05056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,10 +50,23 @@
 		EE670060163A638900C05056 /* PasswordManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordManager-Prefix.pch"; sourceTree = "<group>"; };
 		EE670061163A638900C05056 /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
 		EE670062163A638900C05056 /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
-		EE670064163A638900C05056 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		EE670066163A638900C05056 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		EE670068163A638900C05056 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		EE67006B163A638900C05056 /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
+		EE670072163A63A600C05056 /* PMStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PMStoryboard.storyboard; sourceTree = "<group>"; };
+		EE67007A163A698900C05056 /* PMSettingTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSettingTableViewViewController.h; sourceTree = "<group>"; };
+		EE67007B163A698900C05056 /* PMSettingTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSettingTableViewViewController.m; sourceTree = "<group>"; };
+		EE670080163B9A5B00C05056 /* PMPasswordSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPasswordSettingViewController.h; sourceTree = "<group>"; };
+		EE670081163B9A5B00C05056 /* PMPasswordSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPasswordSettingViewController.m; sourceTree = "<group>"; };
+		EE670089163C87AA00C05056 /* PMAccountListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAccountListViewController.h; sourceTree = "<group>"; };
+		EE67008A163C87AA00C05056 /* PMAccountListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAccountListViewController.m; sourceTree = "<group>"; };
+		EE67008C163C87C500C05056 /* PMAccountDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAccountDetailViewController.h; sourceTree = "<group>"; };
+		EE67008D163C87C500C05056 /* PMAccountDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAccountDetailViewController.m; sourceTree = "<group>"; };
+		EEBCFE40163C9E8900BE28DE /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
+		EEBCFE451640F98D00BE28DE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		EEBCFE471640F9CC00BE28DE /* tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tool.png; sourceTree = "<group>"; };
+		EEBCFE491640FB1600BE28DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EEBCFE4B1640FB1E00BE28DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EEBCFE4D1640FB2300BE28DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EEBCFE4F164100B600BE28DE /* lock_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_57.png; sourceTree = "<group>"; };
+		EEBCFE511641010000BE28DE /* lock_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_114.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,11 @@
 		EE670041163A638900C05056 = {
 			isa = PBXGroup;
 			children = (
+				EEBCFE511641010000BE28DE /* lock_114.png */,
+				EEBCFE4F164100B600BE28DE /* lock_57.png */,
+				EEBCFE4D1640FB2300BE28DE /* Default-568h@2x.png */,
+				EEBCFE4B1640FB1E00BE28DE /* Default@2x.png */,
+				EEBCFE491640FB1600BE28DE /* Default.png */,
 				EE670058163A638900C05056 /* PasswordManager */,
 				EE67004F163A638900C05056 /* Frameworks */,
 				EE67004D163A638900C05056 /* Products */,
@@ -84,10 +120,25 @@
 		EE670058163A638900C05056 /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
+				EEBCFE3F163C9E8900BE28DE /* PasswordManager.xcdatamodeld */,
+				EE5B16231657379300122924 /* PMAccount.h */,
+				EE5B16241657379300122924 /* PMAccount.m */,
+				EE5B161F1657377300122924 /* PMSetting.h */,
+				EE5B16201657377300122924 /* PMSetting.m */,
 				EE670061163A638900C05056 /* PMAppDelegate.h */,
 				EE670062163A638900C05056 /* PMAppDelegate.m */,
-				EE67006A163A638900C05056 /* PasswordManager.xcdatamodeld */,
 				EE670059163A638900C05056 /* Supporting Files */,
+				EE670072163A63A600C05056 /* PMStoryboard.storyboard */,
+				EE67007A163A698900C05056 /* PMSettingTableViewViewController.h */,
+				EE67007B163A698900C05056 /* PMSettingTableViewViewController.m */,
+				EE670080163B9A5B00C05056 /* PMPasswordSettingViewController.h */,
+				EE670081163B9A5B00C05056 /* PMPasswordSettingViewController.m */,
+				EE670089163C87AA00C05056 /* PMAccountListViewController.h */,
+				EE67008A163C87AA00C05056 /* PMAccountListViewController.m */,
+				EE67008C163C87C500C05056 /* PMAccountDetailViewController.h */,
+				EE67008D163C87C500C05056 /* PMAccountDetailViewController.m */,
+				EE5B162616574AD100122924 /* PMAuthenticationViewController.h */,
+				EE5B162716574AD100122924 /* PMAuthenticationViewController.m */,
 			);
 			path = PasswordManager;
 			sourceTree = "<group>";
@@ -95,13 +146,12 @@
 		EE670059163A638900C05056 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEBCFE471640F9CC00BE28DE /* tool.png */,
+				EEBCFE451640F98D00BE28DE /* home.png */,
 				EE67005A163A638900C05056 /* PasswordManager-Info.plist */,
 				EE67005B163A638900C05056 /* InfoPlist.strings */,
 				EE67005E163A638900C05056 /* main.m */,
 				EE670060163A638900C05056 /* PasswordManager-Prefix.pch */,
-				EE670064163A638900C05056 /* Default.png */,
-				EE670066163A638900C05056 /* Default@2x.png */,
-				EE670068163A638900C05056 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE67005D163A638900C05056 /* InfoPlist.strings in Resources */,
-				EE670065163A638900C05056 /* Default.png in Resources */,
-				EE670067163A638900C05056 /* Default@2x.png in Resources */,
-				EE670069163A638900C05056 /* Default-568h@2x.png in Resources */,
+				EE670073163A63A600C05056 /* PMStoryboard.storyboard in Resources */,
+				EEBCFE461640F98D00BE28DE /* home.png in Resources */,
+				EEBCFE481640F9CC00BE28DE /* tool.png in Resources */,
+				EEBCFE50164100B600BE28DE /* lock_57.png in Resources */,
+				EEBCFE521641010000BE28DE /* lock_114.png in Resources */,
+				EE5B16291657549F00122924 /* Default.png in Resources */,
+				EE5B162A165754D000122924 /* Default@2x.png in Resources */,
+				EE5B162B165754D500122924 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +229,14 @@
 			files = (
 				EE67005F163A638900C05056 /* main.m in Sources */,
 				EE670063163A638900C05056 /* PMAppDelegate.m in Sources */,
-				EE67006C163A638900C05056 /* PasswordManager.xcdatamodeld in Sources */,
+				EE67007C163A698900C05056 /* PMSettingTableViewViewController.m in Sources */,
+				EE670082163B9A5B00C05056 /* PMPasswordSettingViewController.m in Sources */,
+				EE67008B163C87AA00C05056 /* PMAccountListViewController.m in Sources */,
+				EE67008E163C87C500C05056 /* PMAccountDetailViewController.m in Sources */,
+				EEBCFE41163C9E8900BE28DE /* PasswordManager.xcdatamodeld in Sources */,
+				EE5B16211657377300122924 /* PMSetting.m in Sources */,
+				EE5B16251657379300122924 /* PMAccount.m in Sources */,
+				EE5B162816574AD100122924 /* PMAuthenticationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +278,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iSafe;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -237,6 +300,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = iSafe;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -283,16 +347,17 @@
 				EE670071163A638900C05056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE67006A163A638900C05056 /* PasswordManager.xcdatamodeld */ = {
+		EEBCFE3F163C9E8900BE28DE /* PasswordManager.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EE67006B163A638900C05056 /* PasswordManager.xcdatamodel */,
+				EEBCFE40163C9E8900BE28DE /* PasswordManager.xcdatamodel */,
 			);
-			currentVersion = EE67006B163A638900C05056 /* PasswordManager.xcdatamodel */;
+			currentVersion = EEBCFE40163C9E8900BE28DE /* PasswordManager.xcdatamodel */;
 			path = PasswordManager.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
